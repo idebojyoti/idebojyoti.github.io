@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero_section {
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
+
+.hero_section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero_section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero_section .btn {
+  padding: 12px 25px;
+  background-color: #d62828;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.hero_section .btn:hover {
+  background-color: #a61c1c;
+}
+
+/* Navbar Styles (optional override) */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d62828 !important;
+}
